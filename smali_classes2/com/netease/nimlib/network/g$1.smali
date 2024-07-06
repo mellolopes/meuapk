@@ -1,0 +1,14 @@
+.class synthetic Lcom/netease/nimlib/network/g$1;
+.super Ljava/lang/Object;
+.source "NetworkPushManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/netease/nimlib/network/g;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

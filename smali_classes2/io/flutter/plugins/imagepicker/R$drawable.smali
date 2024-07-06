@@ -1,0 +1,61 @@
+.class public final Lio/flutter/plugins/imagepicker/R$drawable;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/flutter/plugins/imagepicker/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "drawable"
+.end annotation
+
+
+# static fields
+.field public static final ic_call_answer:I = 0x7f07010b
+
+.field public static final ic_call_answer_low:I = 0x7f07010c
+
+.field public static final ic_call_answer_video:I = 0x7f07010d
+
+.field public static final ic_call_answer_video_low:I = 0x7f07010e
+
+.field public static final ic_call_decline:I = 0x7f07010f
+
+.field public static final ic_call_decline_low:I = 0x7f070110
+
+.field public static final notification_action_background:I = 0x7f07011f
+
+.field public static final notification_bg:I = 0x7f070120
+
+.field public static final notification_bg_low:I = 0x7f070121
+
+.field public static final notification_bg_low_normal:I = 0x7f070122
+
+.field public static final notification_bg_low_pressed:I = 0x7f070123
+
+.field public static final notification_bg_normal:I = 0x7f070124
+
+.field public static final notification_bg_normal_pressed:I = 0x7f070125
+
+.field public static final notification_icon_background:I = 0x7f070126
+
+.field public static final notification_template_icon_bg:I = 0x7f070127
+
+.field public static final notification_template_icon_low_bg:I = 0x7f070128
+
+.field public static final notification_tile_bg:I = 0x7f070129
+
+.field public static final notify_panel_notification_icon_bg:I = 0x7f07012a
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

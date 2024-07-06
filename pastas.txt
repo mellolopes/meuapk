@@ -1,0 +1,14 @@
+AndroidManifest.xml
+META-INF
+apktool.yml
+assets
+kotlin
+original
+pastas.txt
+res
+smali
+smali_classes2
+smali_classes3
+smali_classes4
+smali_classes5
+unknown

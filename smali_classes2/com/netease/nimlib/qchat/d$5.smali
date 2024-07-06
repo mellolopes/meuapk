@@ -1,0 +1,92 @@
+.class Lcom/netease/nimlib/qchat/d$5;
+.super Ljava/lang/Object;
+.source "QChatCore.java"
+
+# interfaces
+.implements Lcom/netease/nimlib/sdk/Observer;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/netease/nimlib/qchat/d;->c(Z)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/netease/nimlib/sdk/Observer<",
+        "Lcom/netease/nimlib/sdk/StatusCode;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/netease/nimlib/qchat/d;
+
+
+# direct methods
+.method constructor <init>(Lcom/netease/nimlib/qchat/d;)V
+    .locals 0
+
+    .line 948
+    iput-object p1, p0, Lcom/netease/nimlib/qchat/d$5;->a:Lcom/netease/nimlib/qchat/d;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lcom/netease/nimlib/sdk/StatusCode;)V
+    .locals 1
+
+    .line 952
+    sget-object v0, Lcom/netease/nimlib/sdk/StatusCode;->LOGINED:Lcom/netease/nimlib/sdk/StatusCode;
+
+    if-ne p1, v0, :cond_0
+
+    .line 953
+    iget-object p1, p0, Lcom/netease/nimlib/qchat/d$5;->a:Lcom/netease/nimlib/qchat/d;
+
+    invoke-static {p1}, Lcom/netease/nimlib/qchat/d;->e(Lcom/netease/nimlib/qchat/d;)V
+
+    goto :goto_0
+
+    .line 954
+    :cond_0
+    sget-object v0, Lcom/netease/nimlib/sdk/StatusCode;->NET_BROKEN:Lcom/netease/nimlib/sdk/StatusCode;
+
+    if-ne p1, v0, :cond_1
+
+    .line 955
+    iget-object p1, p0, Lcom/netease/nimlib/qchat/d$5;->a:Lcom/netease/nimlib/qchat/d;
+
+    invoke-static {p1}, Lcom/netease/nimlib/qchat/d;->f(Lcom/netease/nimlib/qchat/d;)V
+
+    goto :goto_0
+
+    .line 956
+    :cond_1
+    invoke-virtual {p1}, Lcom/netease/nimlib/sdk/StatusCode;->wontAutoLogin()Z
+
+    :goto_0
+    return-void
+.end method
+
+.method public synthetic onEvent(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 948
+    check-cast p1, Lcom/netease/nimlib/sdk/StatusCode;
+
+    invoke-virtual {p0, p1}, Lcom/netease/nimlib/qchat/d$5;->a(Lcom/netease/nimlib/sdk/StatusCode;)V
+
+    return-void
+.end method
